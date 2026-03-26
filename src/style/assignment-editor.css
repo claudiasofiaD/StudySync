@@ -1,0 +1,218 @@
+/* ========================== */
+/* General Wrapper Styles     */
+/* ========================== */
+.assignment-editor {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: #2c3e50;
+}
+
+.assignment-editor h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.assignment-editor h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #34495e;
+}
+
+.assignment-editor p {
+  margin: 4px 0;
+}
+
+/* ========================== */
+/* AddQuestion Component      */
+/* ========================== */
+.add-question {
+  margin-bottom: 40px;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+
+.add-question h1,
+.add-question h2 {
+  color: #2c3e50;
+}
+
+.add-question form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.add-question label {
+  display: block;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.add-question input[type="text"],
+.add-question input[type="number"],
+.add-question input[type="datetime-local"],
+.add-question select {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.add-question input[type="submit"] {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  align-self: flex-start;
+}
+
+.add-question input[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+/* Toggle-style radio buttons */
+.add-question .radio-toggle-group {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.add-question .radio-toggle {
+  position: relative;
+  padding: 10px 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  transition: all 0.25s ease;
+  user-select: none;
+  font-size: 0.95rem;
+}
+
+.add-question .radio-toggle input[type="radio"] {
+  display: none;
+}
+
+.add-question .radio-toggle:hover {
+  background-color: #e0e0e0;
+}
+
+.add-question .radio-toggle.selected {
+  background-color: #3498db;
+  color: white;
+  border-color: #2980b9;
+}
+
+/* ========================== */
+/* DeleteQuestion Component   */
+/* ========================== */
+.delete-question form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.delete-question button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.delete-question button:hover {
+  background-color: #c0392b;
+}
+
+/* ========================== */
+/* ModifyDetails Component    */
+/* ========================== */
+.modify-details {
+  margin-top: 40px;
+  padding: 1rem;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.modify-details h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.modify-details form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.modify-details label {
+  font-weight: 500;
+  color: #333;
+}
+
+.modify-details input[type="text"],
+.modify-details input[type="number"],
+.modify-details input[type="datetime-local"],
+.modify-details select {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.modify-details input[type="submit"] {
+  align-self: flex-start;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.modify-details input[type="submit"]:hover {
+  background-color: #27ae60;
+}
+
+/* ========================== */
+/* Navigation Button (Back)   */
+/* ========================== */
+.assignment-editor button {
+  margin-top: 20px;
+  background-color: #7f8c8d;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.assignment-editor button:hover {
+  background-color: #636e72;
+}

@@ -1,0 +1,51 @@
+/* Tailwind imports */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Global base styles */
+html,
+body {
+  @apply bg-light-bg text-light-text dark:bg-gray-900 dark:text-gray-100;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Anchor/link styles */
+a {
+  @apply text-blue-700 hover:underline dark:text-blue-400;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+  }
+
+/* Form elements */
+input,
+select,
+textarea,
+button {
+  @apply font-sans;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #9CA3AF; /* gray-400 */
+  border-radius: 0.5rem; /* rounded-lg */
+}
+::-webkit-scrollbar-track {
+  background-color: #e5e7eb; /* gray-200 for better contrast */
+}
+
+/* Default transition for subtle UI changes */
+* {
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}

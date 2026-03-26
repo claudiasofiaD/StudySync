@@ -1,0 +1,219 @@
+/* Root Variables */
+:root {
+  --primary: #00274C;
+  --accent: #FFCB05;
+  --text: #1F2937;
+  --background: #F7F9FC;
+  --neutral: #E5E7EB;
+  --danger: #B91C1C;
+  --info: #DBEAFE;
+}
+
+/* Container */
+.assignment-container {
+  max-width: 880px;
+  margin: 48px auto;
+  padding: 32px;
+  background-color: var(--background);
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  font-family: 'Georgia', 'Times New Roman', serif;
+  color: var(--text);
+}
+
+/* Header */
+.header h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--primary);
+  margin-bottom: 8px;
+}
+
+.header p {
+  font-size: 15px;
+  color: #4B5563;
+}
+
+/* Instructions */
+.instructions {
+  background-color: var(--info);
+  border-left: 6px solid var(--primary);
+  padding: 18px;
+  font-size: 15px;
+  border-radius: 8px;
+  color: var(--text);
+  margin-top: 24px;
+}
+
+/* Meta Info (on buffer) */
+.buffer-meta p {
+  font-size: 15px;
+  margin: 6px 0;
+  color: var(--text);
+}
+
+.buffer-header h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+
+/* Countdown */
+.countdown-timer {
+  margin-top: 10px;
+  background-color: #FEF9C3;
+  border-left: 5px solid var(--accent);
+  color: #92400E;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+/* Buttons */
+.start-button,
+.back-button,
+.submit-button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.start-button {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+.start-button:hover {
+  background-color: #001f3f;
+}
+
+.back-button {
+  background-color: var(--neutral);
+  color: var(--primary);
+}
+
+.back-button:hover {
+  background-color: #d1d5db;
+}
+
+.submit-button {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+.submit-button:hover {
+  background-color: #001f3f;
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* Question Block */
+.question-block {
+  background-color: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.question-block h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 14px;
+}
+
+/* Radio Buttons (Options) */
+.option {
+  background-color: #f9fafb;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 10px 12px;
+  font-size: 14px;
+  color: var(--text);
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.option:hover {
+  background-color: #f3f4f6;
+  border-color: #9ca3af;
+}
+
+/* Error Box */
+.error {
+  background-color: #fef2f2;
+  color: var(--danger);
+  border-left: 4px solid var(--danger);
+  padding: 14px;
+  font-size: 15px;
+  border-radius: 6px;
+  margin-top: 16px;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Button Group (used in buffer and submission screens) */
+.button-group {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+/* Reuse start, back, submit buttons */
+.start-button,
+.back-button,
+.submit-button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.start-button {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+.start-button:hover {
+  background-color: #001f3f;
+}
+
+.back-button {
+  background-color: var(--neutral);
+  color: var(--primary);
+}
+
+.back-button:hover {
+  background-color: #d1d5db;
+}
+
+.submit-button {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+.submit-button:hover {
+  background-color: #001f3f;
+}
