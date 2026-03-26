@@ -1,3 +1,11 @@
+This repository contains a public copy of my senior project, originally developed collaboratively in a team.  
+
+My contributions included:
+- Building the front-end components (React)
+- Styling with Tailwind
+- Integrating Firebase for authentication and data storage
+- Debugging and UI updates
+
 # Link
 
 https://seniorproject-28dc7.web.app/
